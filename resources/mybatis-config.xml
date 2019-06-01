@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 配置log4j文件 -->
+	<settings>
+		<setting name="logImpl" value="LOG4J"/>
+		<setting name="autoMappingBehavior" value="FULL"/>
+	</settings>
+	
+	<typeAliases>
+		<package name="cn.bdqn.znpkxt.entity"/>
+	</typeAliases>
+	
+</configuration>
